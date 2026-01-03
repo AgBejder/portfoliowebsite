@@ -1,0 +1,12 @@
+.imgmig {
+  width: 70%;
+}
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  text-align: center;
+  align-items: center;
+  margin: 20px;
+}
