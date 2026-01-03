@@ -4,13 +4,32 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "YEAR" 1979;
+  font-variation-settings: "YEAR" 1979;
 }
 /* menu font */
 
 /* pfont */
+p {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5em;
+  text-align: center;
+}
+/* h1font */
+h1 {
+  font-family: "Crushed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
 
 /* h2font */
-
-/* h3font */
+h2 {
+  font-family: "Crushed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
