@@ -15,6 +15,7 @@ p {
   font-style: normal;
   line-height: 1.5em;
   text-align: center;
+  margin: 2em;
 }
 /* h1font */
 h1 {
@@ -23,6 +24,7 @@ h1 {
   font-style: normal;
   margin-bottom: 0.5em;
   text-align: center;
+  margin-top: 1em;
 }
 
 /* h2font */
