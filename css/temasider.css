@@ -1,1 +1,6 @@
+@media (min-width: 800px) {
+    
 
+.opsætningtema{display: grid;
+grid-template-columns: 1fr 1fr;}
+}

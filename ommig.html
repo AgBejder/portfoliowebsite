@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/generel.css" />
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/ommig.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Crushed&display=swap");
+    </style>
     <title>Om mig</title>
   </head>
 
@@ -22,11 +25,11 @@
         <ul class="menu">
           <li><a href="index.html">Hjem</a></li>
           <li><a href="ommig.html">Om mig</a></li>
-          <li><a href="introduktion.html">Introduktion til uddannelsen</a></li>
-          <li><a href="web.html">Grundlæggende web</a></li>
-          <li><a href="javascript.html">Brugergrænsefladeudvikling</a></li>
+          <li><a href="introduktion.html">Introduktion</a></li>
+          <li><a href="web.html">Web</a></li>
           <li><a href="uxui.html">UX/UI</a></li>
-          <li><a href="indhold.html">Grundlæggende indhold</a></li>
+          <li><a href="javascript.html">Brugergrænsefladeudvikling</a></li>
+          <li><a href="indhold.html">Indhold</a></li>
         </ul>
 
         <button class="burger">
@@ -37,44 +40,116 @@
       </nav>
     </header>
     <main>
-      <div>
-        <h1>OM MIG</h1>
-        <img src="images/plade.png" alt="plade" srcset="" />
-        <p>
-          Hej! Mit navn er Agnethe, jeg er 25 år gammel og jeg studerer
-          multimediedesign på KEA. Jeg har altid haft en stor interesse for
-          kreativitet og teknologi, hvilket har ført mig til at vælge denne
-          uddannelse. Jeg elsker at kombinere min passion for design med min
-          tekniske kunnen for at skabe innovative og brugervenlige digitale
-          oplevelser. Udover mine studier nyder jeg at udforske nye teknologier,
-          deltage i kreative projekter og samarbejde med ligesindede mennesker.
-          Gennem min uddannelse håber jeg at udvikle mine færdigheder inden for
-          webudvikling, grafisk design og brugeroplevelse for at kunne bidrage
-          positivt til den digitale verden.
-        </p>
-      </div>
-      <div>
-        <!-- </button><video src=""></video> -->
+      <div class="grid_1-1">
+        <img class="imgmig" src="images/plade.png" alt="billedemig" />
         <section>
-          <h2>Min erfaring</h2>
-          <p></p>
+          <h1 class="crushed"><strong>OM MIG</strong></h1>
+          <p>
+            Hej! Jeg hedder Agnethe Bejder, jeg er 25 år og studerer
+            multimediedesign på EK. Derudover elsker jeg at høre musik, træne, lave
+            surdejsbrød og drikke en øl i ny og næ.
+          </p>
+          <p class="nomargin">
+            På denne side kan du læse om min erhververfaring, med alt der
+            relatere sig til min uddannelse.
+          </p>
         </section>
       </div>
-      <div class="overlay" popover id="læring">
-        <button class="btn" popovertarget="læring">x</button>
-        <img src="images/tjenestebevis23.png" alt="Tjenestebevis" />
+
+      <div>
+        <h2>START PÅ ARBEJDSLIV</h2>
+        <h3>2016</h3>
+        <p>
+          Jeg begyndte mit arbejdsliv hos McDonald's i 2016 som
+          deltidsmedarbejder ved siden af gymnasiet. Her opbyggede jeg tidligt
+          en forståelse for kundekommunikation, service og brugeroplevelse.
+          Arbejdet med mange forskellige mennesker lærte mig at aflæse behov,
+          kommunikere klart og arbejde struktureret - kompetencer der i dag er
+          centrale i mit arbejde med brugercentreret design.
+        </p>
+        <h2>FULDTIDSARBEJDE & ØGET ANSVAR</h2>
+        <h3>2019</h3>
+        <p>
+          Efter min studentereksamen i 2019 overgik jeg til fuldtidsarbejde. Med
+          det øgede ansvar udviklede jeg en stærk arbejdsmoral, struktur og
+          evnen til at tage ejerskab over opgaver. Jeg lærte at arbejde
+          effektivt under pres og bevare overblik, hvilket har styrket min
+          tilgang til komplekse design- og udviklingsprocesser.
+        </p>
+        <h2>TRÆNER & FORMIDLING AF VIDEN</h2>
+        <h3>2020</h3>
+        <p>
+          I 2020 blev jeg træner og fik ansvar for at oplære nye medarbejdere.
+          Her arbejdede jeg målrettet med formidling, pædagogik og tilpasning af
+          kommunikation til forskellige mennesker. Rollen som træner har styrket
+          mine evner inden for instruktion, feedback og strukturering af
+          information - færdigheder som er direkte overførbare til UX,
+          brugervejledning og design af intuitive brugergrænseflader.
+        </p>
+        <h2>LEDERUDDANNELSE & SKIFTLEDERROLLE</h2>
+        <h3>2021-2022</h3>
+        <p>
+          I efteråret 2021 påbegyndte jeg McDonald’s interne
+          skiftlederuddannelse og blev i marts 2022 verificeret skiftleder med
+          et resultat på 90 %. I denne rolle arbejdede jeg selvstændigt med
+          planlægning, koordinering og administrative opgaver. Lederrollen har
+          givet mig en systematisk tilgang til processer, som jeg direkte
+          overfører til designarbejde – fra idé og skitsering til færdig løsning
+          og dokumentation.
+        </p>
+        <h2>DIGITALT ANSVAR & SOCIALE MEDIER</h2>
+        <h3>2022-2025</h3>
+        <p>
+          Som skiftleder havde jeg blandt andet ansvar for restaurantens sociale
+          medier. Jeg arbejdede med idéudvikling, visuel kommunikation og
+          målrettet indholdsproduktion. Her opnåede jeg praktisk erfaring med
+          digital storytelling og målgruppeforståelse, herunder produktion af
+          indhold, der skabte stort engagement – blandt andet en video med over
+          2,5 millioner visninger, som du kan se herunder.
+        </p>
+      </div>
+      <div class="grid_1-1">
+        <div class="video-container">
+          <video controls width="800" poster="video-thumbnail.jpg">
+            <source src="images/videomcd.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div>
+          <h2>SAMLET SET</h2>
+          <p>
+            Denne erfaring har styrket min forståelse for visuel kommunikation
+            og brugerengagement i digitale medier. Du kan ved at klikke på
+            knappen nedenfor se mit tjenestebevis og en anbefaling fra min
+            leder.
+          </p>
+<div class="placementbtn">
+          <button class="btn-popover" popovertarget="læring" >
+            Anbefalinger
+          </button>
+        </div></div>
+        <div></div>
+        <div class="overlay" popover id="læring">
+          <button class="btn" popovertarget="læring">x</button>
+          <img src="images/tjenestebevis23.png" alt="tjenestebevis" /><img
+            src="images/anbefaling.png"
+            alt="anbefaling"
+          />
+        </div>
       </div>
     </main>
-    <footer><div class="footer-top-wrapper">
+    <footer>
+      <div>
         <div class="footer-top">
-          <div >
-              <img class="imgfooter" src="images/logowhite.svg" alt="logo" />
-              <p>© 2025 Agnethe Bejder</p>
-              <p>Telefon: 23 93 75 21</p>
-              <p>Mail: agbe1000@stud.ek.dk</p>
+          <div>
+            <img class="imgfooter" src="images/logowhite.svg" alt="logo" />
+            <p>© 2025 Agnethe Bejder</p>
+            <p>Telefon: 11 11 11 11</p>
+            <p>Mail: agbe1000@stud.ek.dk</p>
           </div>
         </div>
-      </div></footer>
+      </div>
+    </footer>
     <script src="./menu/menu.js"></script>
   </body>
 </html>
