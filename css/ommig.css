@@ -12,6 +12,15 @@ main img {
   text-align: center;
   align-items: center;
 }
+.treline {
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  text-align: center;
+  max-width: 1400px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .video-container {
   max-width: 900px;
@@ -30,9 +39,11 @@ main img {
   .video-container {
     max-width: 50%;
   }
-  p,
-  h2,
-  h3 {
+  p {
+    margin-left: 10em;
+    margin-right: 10em;
+  }
+  .grid_1-1stor {
     margin-left: 10em;
     margin-right: 10em;
   }

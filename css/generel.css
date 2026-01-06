@@ -10,14 +10,15 @@ body {
   margin: 0;
   padding: 0;
 }
-/* .grid_1-1 {
+.grid_1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   text-align: center;
   align-items: center;
   margin: 20px;
-} */
+}
+
 main p {
   margin-bottom: 5em;
 }
@@ -32,6 +33,11 @@ main p {
   box-shadow: rgba(255, 0, 0, 0.38) 4px 4px;
   display: flex;
   justify-content: center;
+  color: #fff;
+}
+.cta-button:hover {
+  background-color: #fff;
+  color: #000;
 }
 .placementbtn {
   display: flex;
@@ -42,19 +48,29 @@ main p {
 button {
   place-content: center;
 }
-.cta-button:hover {
-  background-color: #fff;
-  color: #000;
-}
+
 :link {
   text-decoration: none;
   color: #fff;
   font-family: "bai jamjuree", sans-serif;
 }
-a {
+.cta-button,
+.cta-button:link,
+.cta-button:visited {
   text-decoration: none;
   color: #fff;
-  font-family: "bai jamjuree", sans-serif;
+  font-family: "crushed", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+menu a,
+menu a:link,
+menu a:visited {
+  display: block;
+  color: #bb2f14;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
 }
 :link:hover {
   color: #000;
@@ -64,17 +80,22 @@ a {
   background: rgba(0, 0, 0, 0.5);
 }
 .btn-popover {
-  background-color: #ffffff;
+  background-color: #bb2f14;
+  color: #fff;
   border: 2px solid red;
   padding: 10px 20px;
   border-radius: 10px;
   box-shadow: rgba(255, 0, 0, 0.38) 4px 4px;
   cursor: pointer;
   margin: 20px;
+  font-family: "crushed", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
 }
+
 .btn-popover:hover {
-  background-color: #bb2f14;
-  color: #ffffff;
+  background-color: #fff;
+  color: #000;
 }
 [popover] {
   /* opacity: 0; */
@@ -121,7 +142,7 @@ footer p {
 @media (max-width: 600px) {
   footer {
     padding: 60px 40px 20px;
-    font-family: "Inter", sans-serif;
+   
   }
 
   footer p {
@@ -138,16 +159,16 @@ footer p {
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 10px;
   }
-  .cta-button {
-    font-size: 10px;
-    font-weight: 700;
-  }
+
 }
 @media (min-width: 800px) {
   main p {
     margin-left: 5em;
     margin-right: 5em;
+  }
+  .spacesides {
+    margin-left: 10em;
+    margin-right: 10em;
   }
 }
