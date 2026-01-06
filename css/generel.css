@@ -24,7 +24,6 @@ main p {
   box-shadow: rgba(255, 0, 0, 0.38) 4px 4px;
   display: flex;
   justify-content: center;
- 
 }
 .placementbtn {
   display: flex;
@@ -128,8 +127,10 @@ footer p {
     margin-right: auto;
     font-size: 10px;
   }
-  .cta-button{font-size: 10px;
-font-weight: 700;}
+  .cta-button {
+    font-size: 10px;
+    font-weight: 700;
+  }
 }
 @media (min-width: 800px) {
   main p {
