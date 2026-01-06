@@ -32,7 +32,6 @@ main p {
   box-shadow: rgba(255, 0, 0, 0.38) 4px 4px;
   display: flex;
   justify-content: center;
-  color: #fff;
 }
 .placementbtn {
   display: flex;
@@ -48,6 +47,11 @@ button {
   color: #000;
 }
 :link {
+  text-decoration: none;
+  color: #fff;
+  font-family: "bai jamjuree", sans-serif;
+}
+a {
   text-decoration: none;
   color: #fff;
   font-family: "bai jamjuree", sans-serif;
