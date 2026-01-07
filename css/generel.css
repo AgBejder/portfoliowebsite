@@ -1,5 +1,4 @@
 body {
-
   background-color: #ffffe8;
   margin: 0;
   padding: 0;
@@ -46,6 +45,9 @@ button {
 :link {
   text-decoration: none;
   font-family: "bai jamjuree", sans-serif;
+}
+.cta-button:hover {
+  color: #000;
 }
 .cta-button,
 .cta-button:link,
